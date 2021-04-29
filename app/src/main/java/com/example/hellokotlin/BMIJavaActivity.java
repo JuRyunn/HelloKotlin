@@ -13,6 +13,7 @@ public class BMIJavaActivity extends AppCompatActivity {
     TextView txtResult;
     Button btnBmi;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
