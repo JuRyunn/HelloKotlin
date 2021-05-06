@@ -20,7 +20,7 @@ public class FlowControlJavaActivity extends AppCompatActivity {
         fieldNumber = findViewById(R.id.fieldNumber);
         btnLD = findViewById(R.id.btnLD);
 
-        btnLD.setOnClickListener(new View.OnClickListener(){
+        btnLD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int number = Integer.parseInt(fieldNumber.getText().toString());
@@ -39,10 +39,12 @@ public class FlowControlJavaActivity extends AppCompatActivity {
                     case 4:
                     case 9:
                         btnLD.setText("실행 for 4" + number);
-                                break;
+                        break;
                     default:
                         btnLD.setText("실행");
-                    break;
+                        break;
                 }
             }
         });
+    }
+}
