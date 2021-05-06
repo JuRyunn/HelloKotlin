@@ -36,7 +36,7 @@ class FlowControlKotlinActivity : AppCompatActivity() {
             when(number){
                 4, 9 -> btnLD.text = "실행 for ${number}"
                 //9 -> btnLD.text = "실행 for 9"
-                else -> btnLD.text = "실행"
+                else -> btnLD.text = "실행 for else"
             }
         }
     }
